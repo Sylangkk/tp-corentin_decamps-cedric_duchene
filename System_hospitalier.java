@@ -34,12 +34,17 @@ public class System_hospitalier {
     }
 
     private String analyserRequete(Requête requête) {
+        // Cette méthode analyse une requête donnée et renvoie une chaîne de caractères
+        // indiquant que la requête a été analysée.
+        // Le paramètre d'entrée est un objet de type Requête.
         
         return "requête analysée";
     }
 
     private String comparerDonnes() {
-        
+        // Cette méthode compare les données (probablement des ensembles de données internes)
+        // et cherche à identifier un "cluster" ou un regroupement significatif de données.
+        // Elle ne prend aucun paramètre et renvoie une chaîne indiquant qu'un cluster a été trouvé.
         return "Cluster trouvé";
     }
 
